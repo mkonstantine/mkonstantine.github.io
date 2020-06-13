@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>lab3</title>
+	<link rel="stylesheet" href="folder/style.css">
+</head>
+<body >
+	<div class="panel">
+		<span class="countdown"><h1>До начала 2020 учебного года осталось:</h1></span>
+		<div class="countdown">
+			<div class="time-section">
+				<span class="count" id="days"></span>
+				<span class="units">Дней</span>
+			</div>
+			<div class="time-section">
+				<span class="count" id="hours"></span>
+				<span class="units">Часов</span>
+			</div>
+			<div class="time-section">
+				<span class="count" id="minutes"></span>
+				<span class="units">Минут</span>
+			</div>
+			<div class="time-section">
+				<span class="count" id="seconds"></span>
+				<span class="units">Секунд</span>
+			</div>
+		</div>
+		<p> 1 – заглавные буквы, 0 – прописные
+			<input id="zero" value="0"></input>
+			<input id="button" type="button" value="Сортировать" onclick="obj2.changeCountries(document.getElementById('zero').value);
+							obj1.outContries.call(obj2,about); "></input></p>
+			<center><div id="tabl"></div></center>
+			<script src = "folder/timer.js"></script>
+			<script src = "folder/countries.js"></script>
+</div>
+</body>
+
+
+</html>
